@@ -1,0 +1,28 @@
+body {
+	color: #3e495c;
+	font-size: 18px !important;
+	height: 100vh;
+	transition: color 0.5s, background-color 0.5s;
+	line-height: 1.6;
+	font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+	font-size: 15px;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/* van 覆盖 */
+:not([class^='van']) {
+	/* prettier-ignore */
+	margin: 0;
+	padding: 0;
+}
+div:not([class^='van']) {
+	box-sizing: border-box;
+}
+:root {
+	--van-tabbar-background-color: #292929;
+	--van-tabbar-item-text-color: #9e9e9e;
+	--van-tabbar-item-active-color: #fff;
+	--van-tabbar-item-active-background-color: #292929;
+}
